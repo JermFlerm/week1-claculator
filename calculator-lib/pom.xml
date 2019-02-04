@@ -5,6 +5,11 @@
   <version>0.0.1</version>
   <name>Calculator Lib</name>
   <description>Library for Calculator Resources </description>
+  <properties>
+  	<java.version>10</java.version>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
   <build>
   		<plugins>
   			<plugin>
