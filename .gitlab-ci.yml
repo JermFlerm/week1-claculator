@@ -17,3 +17,9 @@ build:
     script:
       - cd calculator-lib
       - mvn $MAVEN_CLI_OPTS compile
+
+test: 
+  stage: test 
+  script: 
+    - cd calculator-lib
+    - mvn $MAVEN_CLI_OPTS test
