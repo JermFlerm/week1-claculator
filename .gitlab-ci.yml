@@ -13,7 +13,7 @@ cache:
     - .m2/repository/
 
 build:
-  stage: 
+  stage: build
     script:
       - cd calculator-lib
       - mvn $MAVEN_CLI_OPTS compile
