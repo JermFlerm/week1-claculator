@@ -6,7 +6,7 @@ stages:
 
 variables:
   MAVEN_CLI_OPTS: " --bacth-mode"
-  MAVEN_OPTS: "-Dmaven.repo.locals=./../.m2/repository"
+  MAVEN_OPTS: "-Dmaven.repo.local=./../.m2/repository"
 
 cache:
   paths:
